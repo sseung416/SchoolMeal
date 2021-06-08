@@ -8,14 +8,18 @@ import retrofit2.http.Query
 import java.util.*
 
 interface SchoolMealService {
-    @GET("")
+    @GET("mealServiceDietInfo")
     fun getSchoolInfo(
+        @Query("KEY") key: String,
+        @Query("Type") type: String,
         @Query("ATPT_OFCDC_SC_CODE") MOECode: String,
         @Query("SD_SCHUL_CODE") schoolCode: String
     ) : Call<School>
 
-    @GET("")
+    @GET("mealServiceDietInfo")
     fun getMealInfo(
+        @Query("KEY") key: String,
+        @Query("Type") type: String,
         @Query("ATPT_OFCDC_SC_CODE") MOECode: String,
         @Query("SD_SCHUL_CODE") schoolCode: String,
         @Query("MLSV_YMD") date: String,
