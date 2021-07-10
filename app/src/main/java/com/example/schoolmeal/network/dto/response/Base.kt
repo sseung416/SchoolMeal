@@ -1,4 +1,4 @@
-package com.example.schoolmeal.network.dto
+package com.example.schoolmeal.network.dto.response
 
 data class Base(
     val currentCount : Int,

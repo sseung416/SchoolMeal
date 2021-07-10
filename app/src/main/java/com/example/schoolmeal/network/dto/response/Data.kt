@@ -1,4 +1,4 @@
-package com.example.schoolmeal.network.dto
+package com.example.schoolmeal.network.dto.response
 
 import com.google.gson.annotations.SerializedName
 
@@ -11,8 +11,4 @@ data class Data(
     val sido : String,
     val totalFirstCnt : Int,
     val totalSecondCnt : Int
-
-//    @SerializedName("sido") val sido: String,
-//    @SerializedName("firstCnt") val firstCnt: Int,
-//    @SerializedName("totalFirstCnt") val totalFirstCnt: Int
 )

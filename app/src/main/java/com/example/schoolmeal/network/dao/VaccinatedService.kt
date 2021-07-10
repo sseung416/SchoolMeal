@@ -1,7 +1,7 @@
 package com.example.schoolmeal.network.dao
 
 import com.example.schoolmeal.network.`object`.RetrofitInstance
-import com.example.schoolmeal.network.dto.Base
+import com.example.schoolmeal.network.dto.response.Base
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
