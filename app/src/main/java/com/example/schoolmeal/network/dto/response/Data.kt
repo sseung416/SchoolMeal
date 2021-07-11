@@ -1,7 +1,5 @@
 package com.example.schoolmeal.network.dto.response
 
-import com.google.gson.annotations.SerializedName
-
 data class Data(
     val accumulatedFirstCnt : Int,
     val accumulatedSecondCnt : Int,
